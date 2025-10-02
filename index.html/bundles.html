@@ -1,0 +1,151 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0"> 
+    <title>eBook Bundles | MiniAcademy</title> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/
+ css/all.min.css"> 
+    <style> 
+        .bundle-showcase { 
+            display: flex; 
+            flex-direction: column; 
+            gap: 60px; 
+            margin-top: 40px; 
+            text-align: left; 
+        } 
+        .bundle-card { 
+            background-color: var(--secondary-off-white); 
+            padding: 40px; 
+            border-radius: 12px; 
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08); 
+            display: flex; 
+            align-items: center; 
+            flex-wrap: wrap; 
+        } 
+        .bundle-images { 
+            flex: 1; 
+            display: flex; 
+            gap: 15px; 
+            min-width: 250px; 
+        } 
+        .bundle-info { 
+            flex: 2; 
+            padding-left: 40px; 
+        } 
+        .bundle-save { 
+            font-size: 1.5em; 
+            color: #28a745; /* Success Green */ 
+            font-weight: 700; 
+            margin: 10px 0; 
+        } 
+        .original-price { 
+            text-decoration: line-through; 
+            color: #888; 
+            margin-right: 15px; 
+        } 
+        .bundle-price { 
+            font-size: 2em; 
+            color: var(--highlight-coral); 
+            font-weight: 700; 
+        } 
+        @media (max-width: 768px) { 
+            .bundle-card { 
+                flex-direction: column; 
+                text-align: center; 
+            } 
+            .bundle-info { 
+                padding-left: 0; 
+                margin-top: 30px; 
+            } 
+            .bundle-images { 
+                justify-content: center; 
+            } 
+        } 
+    </style> 
+</head> 
+<body> 
+    <header> 
+        <div class="container"><nav><div 
+class="logo">MiniAcademy</div><div class="nav-links"><a 
+href="index.html">Home</a><a href="courses.html">eBooks/Courses</a><a 
+href="bundles.html">Bundles</a><a href="about.html">About</a><a 
+href="blog.html">Blog</a><a 
+href="contact.html">Contact</a></div></nav></div> 
+    </header> 
+ 
+    <section class="page-hero" style="background-color: 
+var(--accent-pastel); padding: 70px 0;"> 
+        <div class="container"> 
+            <h1>The Ultimate Business Bundles</h1> 
+            <p style="font-size: 1.1em;">Get 3x the knowledge and 
+**save up to 40%** compared to buying single guides!</p> 
+        </div> 
+    </section> 
+ 
+    <section class="bundles"> 
+        <div class="container bundle-showcase"> 
+             
+            <div class="bundle-card"> 
+                <div class="bundle-images"> 
+                    <img src="mockup-1.png" alt="Ebook 1" 
+style="width: 40%; height: auto;"> 
+                    <img src="mockup-2.png" alt="Ebook 2" 
+style="width: 40%; height: auto;"> 
+                    </div> 
+                <div class="bundle-info"> 
+                    <h2>The Creator Starter Pack</h2> 
+                    <p style="margin-bottom: 20px;">Includes the 
+Artisan's Launchpad, Digital Product Blueprint, and Pricing Secrets 
+Micro-Guide.</p> 
+                    <div class="bundle-save">
+ 🎉
+ SAVE 35% TODAY!</div> 
+                    <div> 
+                        <span class="original-price">Original Price: 
+₹2797 / $45</span> 
+                        <span class="bundle-price">Bundle Price: ₹1799 
+/ $29</span> 
+                    </div> 
+                    <a href="#" class="btn btn-primary" 
+style="margin-top: 25px;">Grab This Bundle Now</a> 
+                </div> 
+            </div> 
+ 
+            <div class="bundle-card"> 
+                <div class="bundle-images"> 
+                    <img src="mockup-4.png" alt="Ebook 4" 
+style="width: 40%; height: auto;"> 
+                    <img src="mockup-3.png" alt="Ebook 3" 
+style="width: 40%; height: auto;"> 
+                    </div> 
+                <div class="bundle-info"> 
+                    <h2>The Marketing Master Kit</h2> 
+                    <p style="margin-bottom: 20px;">Everything you 
+need to master traffic and sales, including Instagram Marketing and 
+SEO for Beginners.</p> 
+                    <div class="bundle-save">
+ ✨
+ SAVE 40% TODAY!</div> 
+                    <div> 
+                        <span class="original-price">Original Price: 
+₹3297 / $55</span> 
+                        <span class="bundle-price">Bundle Price: ₹1999 
+/ $33</span> 
+                    </div> 
+                    <a href="#" class="btn btn-primary" 
+style="margin-top: 25px;">Grab This Bundle Now</a> 
+                </div> 
+            </div> 
+ 
+        </div> 
+    </section> 
+ 
+    <footer> 
+        <div class="container">...</div> 
+    </footer> 
+</body> 
+</html> 
